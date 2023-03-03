@@ -38,8 +38,8 @@ async def check_lnaddress_exists(lnaddress: str) -> bool:
 
 
 async def check_lnaddress_format(lnaddress: str) -> bool:
-    if not re.match("^[a-z0-9-_.]{3,15}$", lnaddress):
-        assert False, "Only letters a-z0-9-_. allowed, min 3 and max 15 characters!"
+    if not re.match("^[a-z0-9-_.]{1,15}$", lnaddress):
+        assert False, "The Lightning Address only allows characters a-z0-9-_. in it, min 1 and max 15 characters!"
         return
     return True
 
