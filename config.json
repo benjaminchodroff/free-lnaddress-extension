@@ -2,5 +2,5 @@
   "name": "LNAddress Simple",
   "short_description": "Simple Lightning Address per Wallet with LNURL pay links",
   "tile": "/lnaddy/static/image/lnaddress.png",
-  "contributors": ["bitkarrot"]
+  "contributors": ["bitkarrot","benjaminchodroff"]
 }
